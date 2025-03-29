@@ -4,10 +4,16 @@ const body = document.body;
 
 darkModeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
+    
+    const Logo = document.getElementById('Logo');
+
     if (body.classList.contains('dark-mode')) {
-        darkModeToggle.textContent = '🌙';
+        darkModeToggle.textContent = '⏾';
+        Logo.src = 'Dekusu images/dekusu logo(Dark).png'
+        
     } else {
-        darkModeToggle.textContent = '☀️';
+        darkModeToggle.textContent = '☀︎';
+        Logo.src = 'Dekusu images/dekusu logo.png'
     }
 });
 
