@@ -210,3 +210,66 @@ input {
 .dark-mode .visitor {
     color: #000000;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-section {
+        padding-left: 0;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .login-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .Login {
+        font-size: 1.5rem;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .Login {
+        font-size: 1.3rem;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+}
