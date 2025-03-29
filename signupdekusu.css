@@ -215,18 +215,20 @@ input {
     .container {
         flex-direction: column;
         padding: 20px;
+        align-items: center;
     }
 
     .left-section {
-        padding-left: 0;
+        padding: 10px;
+        align-items: center;
     }
 
     .logo {
-        width: 300px;
+        width: 320px; /* Adjusted size */
     }
 
     .login-box {
-        width: 100%;
+        width: 90%;
         padding: 15px;
     }
 
@@ -248,13 +250,19 @@ input {
 }
 
 @media (max-width: 480px) {
-    .login-box {
-        width: 100%;
+    .container {
+        flex-direction: column;
         padding: 10px;
+        align-items: center;
     }
 
     .logo {
-        width: 300px;
+        width: 300px; /* Logo remains big */
+    }
+
+    .login-box {
+        width: 95%;
+        padding: 15px;
     }
 
     h1 {
