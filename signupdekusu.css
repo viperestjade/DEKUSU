@@ -229,16 +229,16 @@ input {
 
 @media (max-width: 480px) {
     .container {
-        padding-top: 1vh;
+        padding-top: 10px;
     }
 
     .logo {
-        width: 300px;
+        width: 300px; 
     }
 
     .login-box {
         width: 95%;
         padding: 15px;
-        margin-top: -15px
+        margin-top: 0; 
     }
 }
