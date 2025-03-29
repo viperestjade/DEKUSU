@@ -222,11 +222,11 @@ input {
     }
 
     .logo {
-        width: 150px;
+        width: 300px;
     }
 
     .login-box {
-        width: 90%;
+        width: 100%;
         padding: 15px;
     }
 
