@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ffffff, #f0f0f0);
 }
 
 /* Main container */
@@ -20,11 +19,11 @@ body {
     justify-content: center;
     align-items: center;
     padding-left: 50px;
-    background: white;
+    background-color: rgba(rgba(255, 255, 255, 0));
 }
 
 .logo {
-    width: 100px;
+    width: 500px;
     margin-bottom: 20px;
 }
 
@@ -57,22 +56,25 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #dbeafe, #fef9c3);
+    background: linear-gradient(332deg, rgba(254,254,254,0) 0%, rgba(255,255,255,1) 40%), url(https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Login box */
 .login-box {
     width: 300px;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(108,117,171);
+    background: linear-gradient(180deg, rgba(108,117,171,1) 11%, rgba(246,215,132,1) 44%, rgba(255,255,255,0.6) 100%);
     border-radius: 10px;
     text-align: center;
 }
 
 h2 {
     margin-bottom: 20px;
-    color: #1e3a8a;
+    color: #ffffff;
 }
 
 label {
