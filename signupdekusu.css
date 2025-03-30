@@ -13,6 +13,8 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-wrap: wrap;
+    overflow: visible;
 }
 /* Fonts */
 .titillium-web-bold {
@@ -159,8 +161,6 @@ input {
 
 /* Dark mode styles */
 .dark-mode .container{
-    display: flex;
-    height: 100vh;
     background: linear-gradient(145deg, rgba(15,13,7,1) 44%, rgba(128,128,124,0.59) 100%), url(https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df);
     background-position: right;
     background-repeat: no-repeat;
@@ -242,3 +242,4 @@ input {
         margin-top: 0; 
     }
 }
+

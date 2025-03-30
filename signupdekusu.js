@@ -17,6 +17,15 @@ darkModeToggle.addEventListener('click', () => {
     }
 });
 
+document.getElementById('visitorform').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const form = document.getElementById('Purpose').value;
+    if (form){
+        window.location.href = 'Pages/dashboard(guest).html';
+    }
+});
+
 // Handle form submission
 document.getElementById('loginForm').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -25,8 +34,39 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
 
     if (email === 'admin@adnu.edu.ph' && password === 'password123') {
         alert('Login successful! Redirecting...');
-        window.location.href = 'dashboard.html';
-    } else {
+        window.location.href = 'Pages/dashboard.html';
+    } 
+    else {
         alert('Invalid email or password. Please try again.');
     }
+});
+
+//VisitorForm
+const overlay = document.getElementById("overlay");
+const visitorBtn = document.getElementById("visitor");
+
+// Show overlay
+visitorBtn.addEventListener("click", () => {
+    overlay.classList.add("show");
+    document.querySelector(".overlay-content").classList.add("show");
+});
+
+// Close overlay
+function closeOverlay() {
+    overlay.classList.remove("show");
+    document.querySelector(".overlay-content").classList.remove("show");
+}
+
+
+
+// Close when clicking outside the form
+overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) {
+        closeOverlay();
+    }
+});
+
+document.querySelector('select').addEventListener('click', function() {
+    this.style.position = 'relative';
+    this.style.top = 'auto';
 });
