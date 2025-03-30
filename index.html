@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADNU DEKUSU - Login</title>
     <link rel="stylesheet" href="signupdekusu.css">
+    <link rel="stylesheet" href="stylesheets/formstyle.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-</head>
+</head>  
+
 <body>
     <div class="container">
         <div class="left-section">
@@ -29,11 +31,31 @@
 
                     <button type="submit" class="btn">Sign In</button>
                     <a href="#" class="forgot-password">Forgot password?</a>
-                    <a href="#" class="visitor">Visitor</a>
+                    <a href="#" class="visitor" id="visitor">Visitor</a>
                 </form>
             </div>
         </div>
         <button id="darkModeToggle" class="dark-mode-btn">☀</button>
+
+        <div id="overlay" class="overlay">
+            <div class="overlay-content">
+                <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                <h2 class="formheader">Visitor Form</h2>
+                <form>
+                    <label for="visitor-name" class="formlabel">Please choose the reason for your visit.</label>
+                    <br></br>
+                    <select id="Purpose">
+                      <option value="0" selected="selected">Purpose Of Visit:</option>
+                      <option value="1">Paying</option>
+                      <option value="2">Inquiring</option>
+                      <option value="3">Applying</option>
+                      <option value="3">Other</option>
+                    </select>
+                </form>
+                <button type="continue" class="continue">Continue</button>
+            </div>
+        </div>
+
     </div>
     <script src="signupdekusu.js"></script>
 </body>

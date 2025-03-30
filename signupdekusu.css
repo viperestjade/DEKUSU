@@ -13,6 +13,7 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-wrap: wrap;
 }
 /* Fonts */
 .titillium-web-bold {
@@ -210,3 +211,4 @@ input {
 .dark-mode .visitor {
     color: #000000;
 }
+
