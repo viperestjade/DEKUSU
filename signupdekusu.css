@@ -70,6 +70,7 @@ h1 {
     align-items: center;
 }
 
+
 /* Login box */
 .login-box {
     width: 300px;
@@ -213,7 +214,7 @@ input {
 
 @media (max-width: 768px) {
     .container {
-        padding-top: 2vh; 
+        padding-top: 2vh;
     }
 
     .logo {
@@ -221,6 +222,20 @@ input {
     }
 
     .login-box {
+        width: 90%;
+        padding: 15px;
+        margin-top: -20px; 
+    }
+
+    .dark-mode .container {
+        padding-top: 2vh; 
+    }
+
+    .dark-mode .logo {
+        width: 320px;
+    }
+
+    .dark-mode .login-box {
         width: 90%;
         padding: 15px;
         margin-top: -20px; 
@@ -233,10 +248,26 @@ input {
     }
 
     .logo {
-        width: 300px; 
+        width: 300px;
+        margin-bottom: 20px;
     }
 
     .login-box {
+        width: 95%;
+        padding: 15px;
+        margin-top: 0; 
+    }
+
+    .dark-mode .container {
+        padding-top: 10px;
+    }
+
+    .dark-mode .logo {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .dark-mode .login-box {
         width: 95%;
         padding: 15px;
         margin-top: 0; 
