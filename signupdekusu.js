@@ -8,7 +8,7 @@ darkModeToggle.addEventListener('click', () => {
     const Logo = document.getElementById('Logo');
 
     if (body.classList.contains('dark-mode')) {
-        darkModeToggle.textContent = '⏾';
+        darkModeToggle.textContent = '☾';
         Logo.src = 'Dekusu images/dekusu logo(Dark).png'
         
     } else {
