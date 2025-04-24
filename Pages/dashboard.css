@@ -6,11 +6,12 @@
 }
 
 body{
-    background: linear-gradient(332deg, rgba(254,254,254,0) 0%, rgba(255,255,255,1) 50%), url(https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df);
+    background: linear-gradient(332deg, rgba(254,254,254,0) 0%, rgba(255,255,255,1) 50%), url("/Dekusu\ images/Main_Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 97.8vh;
+    overflow: hidden;
 }
 
 header{
