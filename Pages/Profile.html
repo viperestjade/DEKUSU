@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADNU DEKUSU - dashboard</title>
-    <link rel="stylesheet" href="/stylesheets/dashboard.css">
+    <link rel="stylesheet" href="/stylesheets/Profile_styles.css">
     <link rel="stylesheet" href="/stylesheets/navbar.css">
 
     <!-- FONTS -->
@@ -29,10 +29,48 @@
                 </ul>
         </header>
         
-        <div class="TITLE">
-            <h2><span class="ADNU">ADNU</span> <span class="DEKUSU">DEKUSU</span></h2>
-            <h2><span class="Student">Student</span> <span class="Helpdesk">Helpdesk</span></h2>
-        </div>
+            <div class="main-content" id="MAINCONTENT">
+                <div class="profile-box">
+                    <div class="profile-picture" id="profilePic"></div>
+                    <div class="profile-info">
+                        <h2 id="userName">Name</h2>
+                        <p id="userYear">Year - Course</p>
+                        <p id="userID">ID Number</p>
+                    </div>
+                    <div class="contact-info">
+                        <p id="userEmail">Email Address (gbox)</p>
+                        <p id="userPhone">Phone Number</p>
+                    </div>
+            </div>
+        
+            <div class="info-box" id="MAINCONTENT">
+                <h3>Academic & Technical Information</h3>
+                <ul>
+                    <li>Department: <span id="userDepartment">Not specified</span></li>
+                    <li>Subjects Taken: <span id="userSubjects">Not specified</span></li>
+                    <li>Skills & Competencies: <span id="userSkills">Not specified</span></li>
+                    <li>Preferred Support Areas: <span id="userSupportAreas">Not specified</span></li>
+                </ul>
+            </div>
+        
+                <div class="info-box2" id="MAINCONTENT">
+                    <h3>Helpdesk-Related Information</h3>
+                    <ul>
+                        <li>Previous Tickets Raised: <span id="userTickets">None</span></li>
+                        <li>Ongoing Requests: <span id="userRequests">None</span></li>
+                        <li>Preferred Support Hours: <span id="userSupportHours">Not specified</span></li>
+                    </ul>
+                </div>
+        
+                <div class="additional-box" id="MAINCONTENT">
+                    <h3>Additional Information</h3>
+                    <ul>
+                        <li>Languages Spoken: <span id="userLanguages">Not specified</span></li>
+                        <li>Availability: <span id="userAvailability">Not specified</span></li>
+                        <li>Interests & Hobbies: <span id="userInterests">Not specified</span></li>
+                    </ul>
+                </div>
+            </div>
         
         <script src="/Js/dashboardjs.js"></script>
     </body>
