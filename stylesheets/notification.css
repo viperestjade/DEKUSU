@@ -91,15 +91,5 @@ article{
         justify-content: center;
         text-align: center;
     }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 1%;
-        background: linear-gradient(90deg, rgba(19,44,111,1) 42%, rgba(210,217,240,1) 91%);
-        height: 40px;
-        border-radius: 1000px;
-        margin: 20px;
-    }
 
 }

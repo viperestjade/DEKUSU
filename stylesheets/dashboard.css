@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    overflow: hidden;
+    overflow:hidden;
     transition: all 0.3s ease;
 }
 
@@ -24,7 +24,7 @@ h2{
     font-size: 9rem;
 }
 .TITLE{
-    padding-top: 25vh;
+    padding-top: 15vh;
 }
 .ADNU, .Helpdesk{
     color: #132C6F;
