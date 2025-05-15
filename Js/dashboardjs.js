@@ -41,3 +41,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Toggle dark mode
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    
+    const Logo = document.getElementById('Logo');
+
+    if (body.classList.contains('dark-mode')) {
+        darkModeToggle.textContent = '☾';
+        Logo.src = '/Dekusu images/dekusu logo(Dark).png'
+        
+    } else {
+        darkModeToggle.textContent = '☀︎';
+        Logo.src = '/Dekusu images/dekusu logo.png'
+    }
+});
+
+document.getElementById('visitorform').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const form = document.getElementById('Purpose').value;
+    if (form){
+        window.location.href = 'Pages/dashboard(guest).html';
+    }
+});
