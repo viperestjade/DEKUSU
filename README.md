@@ -1,3 +1,3 @@
 # DEKUSU
 
-Deployed Github Pages: [Front End View](j3sterlir.github.io/DEKUSU-FrontendView/)
+Deployed Github Pages: https://j3sterlir.github.io/DEKUSU-FrontendView/
